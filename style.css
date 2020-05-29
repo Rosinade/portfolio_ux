@@ -476,12 +476,12 @@ h1 {
 
 @media screen and (max-width: 380px) {
     .txt-animation {
-        font-size: 15px!important;
+        font-size: 16px!important;
     }
 }
 @media screen and (max-width: 370px) {
     .txt-animation {
-        font-size: 13px!important;
+        font-size: 16px!important;
     }
 }
 
