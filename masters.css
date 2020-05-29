@@ -1,0 +1,313 @@
+
+
+/* All pages */
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display:block;
+  text-align:left;
+  color: #3F3F3F;
+}
+
+a{
+  color:#212529;
+  text-decoration-color: #ffd8e2;
+  text-decoration:none;
+}
+
+ul{
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+li{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+p{
+  margin-bottom: 25px;
+  margin-top:25px;
+
+}
+
+h1{
+  font-family: 'Abril Fatface';
+  font-size: 25px;
+  color: #f93700;
+  margin-bottom: 25px;
+  margin-top:25px;
+}
+
+.display-4{
+  font-family: 'Abril Fatface';
+}
+
+h3{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: #3F3F3F;
+  font-weight: bold;
+  margin-bottom: 25px;
+  margin-top:25px;
+}
+
+h2{
+  font-family: 'Abril Fatface';
+  margin-bottom: 25px;
+  margin-top:25px;
+}
+
+h4{
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 20px;
+  margin-bottom: 25px;
+  margin-top:25px;
+}
+
+
+/*@media only screen and (min-width: 576px) {
+  video{
+  width: 600px;
+  list-style: none;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  }*/
+
+
+/*@media only screen and (min-width: 576px) {
+  div.small-container{
+  width: 780px;
+  list-style: none;
+  }*/
+
+
+/* Navbar */
+
+.button{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.button:hover{
+  color: #f98aa6;
+  text-decoration: none;
+}
+
+.bg-light{
+    justify-content: space-between;
+    height: 90px;
+}
+.navbar-brand{
+  margin:20px;
+}
+
+#navbarSupportedContent{
+  display: flex;
+  justify-content: space-between;
+  position:relative;
+  width: 100%;
+  font-size: 20px;
+}
+
+/* Sidebar Social media */
+.sidebar ul{
+    list-style: none;
+}
+.sidebar-mail{
+  font-size: 20px;
+  align-items: center;
+  background-color: rgba(255,255,255,0);
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 315px;
+  justify-content: flex-start;
+  overflow: hidden;
+  position: fixed;
+  transform: rotate(-90deg);
+  width: auto;
+
+}
+.sidebar{
+  font-size: 2em;
+  align-items: flex-start;
+  background-color: rgba(255,255,255,0);
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-direction: row;
+  height: 315px;
+  justify-content: flex-start;
+  left: 2px;
+  position: fixed;
+  top: 240px;
+  transform: rotate(0deg);
+  width: auto;
+}
+
+/* Footer */
+footer{
+  text-align:center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width:100%;
+  border-color: #212529;
+  display:inline-block;
+  font-size:13px;
+  background-color: #212529;
+}
+
+.text-footer{
+  color: #FFFFFF;
+}
+
+
+/* Homepage */
+.big-title-2{
+  font-size: 5em;
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  color: #f93700;
+}
+
+.jumbotron{
+  /*padding-bottom: 50px;
+  padding-top:200px;*/
+  background-color: #edece9;
+  text-align:center;
+  height: auto+10px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  justify-content:space-around;
+}
+
+.lead{
+font-family: 'poppins', sans-serif;
+}
+
+.row{
+  font-size: 30px;
+  padding-bottom:30px;
+  background-size:cover;
+}
+
+
+
+/* hover card homepage */
+
+a:hover{
+  color:#212529;
+  text-decoration-color: #ffd8e2;
+  text-decoration:none;
+  color: #f93700;
+}
+
+.card-index {
+  text-align:center;
+  margin-bottom: 20px;
+  background-size: cover;
+  background: white;
+  box-shadow: 0px 0px 0px grey;
+  -webkit-transition:  box-shadow .6s ease-out;
+  box-shadow: .8px .9px 3px grey;
+}
+
+.card-index-body{
+  text-decoration: none;
+}
+
+.card-index:hover{
+     box-shadow: 1px 8px 20px grey;
+    -webkit-transition:  box-shadow .6s ease-in;
+
+  }
+
+
+/* About page */
+
+
+.about-jumbotron{
+  background-color: #edece9;
+  padding-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.big-title{
+  font-size: 5em;
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  color: #212529;
+}
+
+.row-article{
+  text-align: left;
+  font-size: 16px;
+
+}
+
+.mail{
+  color: #f93700;
+  font-size: 1.3em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Project pages */
+.quote{
+  font-size: 2em;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.profile{
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.wellness{
+    padding-bottom:0;
+    background: linear-gradient(#edf4f0,#f4f8f4);
+    width: auto;
+    height: auto;
+}
+
+.amazon{
+    padding-bottom:0;
+    background: #FFFFFF;
+    height: auto;
+}
+
+.pdw{
+    padding-bottom:0;
+    background: #FFFFFF;
+    height: auto;
+}
+
+article.container{
+  width: 890px;
+}
+
+
+
+/* Work page */
+
+.work{
+  padding-bottom:20px;
+  background: #edece9;
+  height: auto;
+}
+
+.work-container{
+  margin: 100px;
+  height: 30%;
+}
+
+
+/* graph circle */
