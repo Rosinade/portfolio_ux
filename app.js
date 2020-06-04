@@ -98,7 +98,7 @@ const tlpres = new TimelineMax();
 tlpres
 .from(titrePres, {y: -200, opacity: 0, duration: 0.6})
 .from(presGauche, {y:-20, opacity: 0, duration: 0.6}, '-=0.5')
-.staggerFrom(listePres, 1, {opacity: 0}, 0.2, '-=0.5')
+.staggerFrom(listePres, 2, {opacity: 0}, 0.2, '-=0.5')
 
 const controller = new ScrollMagic.Controller();
 
