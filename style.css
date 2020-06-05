@@ -179,6 +179,7 @@ body {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        z-index: 10;
 
     } 
     .menu-visible {
@@ -271,6 +272,7 @@ body {
     width: calc(100% - 300px);
     margin-left: auto;
     position: relative;
+   
 }
 h1 {
     font-size: 70px;
@@ -385,6 +387,8 @@ h1 {
 @media screen and (max-width: 700px) {
     .accueil {
         height: 600px;
+        position: relative;
+        
     }
     h1 {
         font-size: 50px;
@@ -406,6 +410,8 @@ h1 {
     }
     .accueil p {
         font-size: 16px;
+        position: relative;
+       
     }
     .btn-acc {
         width: 120px;
@@ -448,6 +454,8 @@ h1 {
     }
     .accueil {
         height: 500px;
+        position: relative;
+        
     }
     h1 {
         margin: 0 30px 0 5px;
@@ -491,7 +499,8 @@ h1 {
     border-top: 1px dashed #212529;
     border-bottom: 1px dashed #212529;
     color: #212529;
-    z-index: -2;
+    z-index: -1;
+   
 }
 .fond-forme {
     background: #ccc7c7;
@@ -500,7 +509,7 @@ h1 {
     height: 1000px;
     position: absolute;
     transform: rotate(-45deg) translateX(100px) translateY(-15px);
-    z-index: -2;
+    
 }
 
 .titre-pres {
@@ -548,6 +557,7 @@ h1 {
 .liste-presentation {
     list-style-type: none;
     padding: 10px 0 50px 110px;
+    z-index: 0;
 }
 .chiffre-style {
     font-family: 'Abril Fatface', sans-serif;
@@ -636,6 +646,8 @@ h1 {
 
 .portfolio {
     width: 100%;
+    position: relative;
+   
 }
 .titre-port {
     text-align: center;
@@ -890,6 +902,8 @@ h1 {
     height: auto;
     margin-left: auto;
     padding-bottom: 100px;
+    position: relative;
+    
 }
 
 .titre-travail-exp {
@@ -913,6 +927,7 @@ h1 {
     align-items: center;
     position: relative;
     left: -30px;
+    z-index: -1;
 }
 .boule-ico {
     width: 50px;
@@ -1078,6 +1093,8 @@ h1 {
 .section-contact {
     width: 100%; 
     height: auto;
+    position: relative;
+ 
 }
 .section-contact h2 {
     text-align: center;
@@ -1330,5 +1347,6 @@ footer {
 
     .img-fluid {
         margin: 0px;
+        width: 700px;
     } 
 }
