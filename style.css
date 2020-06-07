@@ -507,7 +507,7 @@ h1 {
         width: 20px;
     }
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 320px) {
     .txt-animation {
         font-size: 16px!important;
     }
@@ -1087,7 +1087,7 @@ h1 {
             font-size: 15px;
         }
         .bloc {
-            height: 330px;
+            height: 450px;
         }
 
         .barre-verticale {
@@ -1098,7 +1098,7 @@ h1 {
         .travail-exp {
             height: auto;
             margin-left: auto;
-            padding-bottom: 170px;
+            padding-bottom: 280px;
             position: relative;
         }
 
@@ -1114,7 +1114,7 @@ h1 {
     }
 
     .barre-verticale {
-        height: 1920px;
+        height: 2000px;
         margin-bottom: 180px;
     }
 
