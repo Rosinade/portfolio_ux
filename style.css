@@ -1038,6 +1038,11 @@ h1 {
             font-size: 15px;
         }
 
+        .barre-verticale {
+            height: 2000px;
+            margin-bottom: 180px;
+        }
+
 }
 
 /* Section Parallax */
