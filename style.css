@@ -27,8 +27,7 @@ body {
     text-align: center;
     font-size: smaller;
     margin-top: 5px;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
+    margin-bottom: 5px;
   }
   .p{
       color: #212529;
@@ -1465,11 +1464,13 @@ footer {
         } 
     }
 
+/*-------------- Image article --------------*/
+
 .img-fluid {
     max-width: 100%; 
     height: auto;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -1493,5 +1494,13 @@ footer {
     .img-fluid {
         margin: 0px;
         width: 700px;
+    } 
+}
+
+@media screen and (max-width: 320px) {
+
+    .img-fluid {
+        margin: 0px;
+        width: 100%;
     } 
 }
