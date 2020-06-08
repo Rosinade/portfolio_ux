@@ -1418,7 +1418,16 @@ footer {
 
 }
 
+@media screen and (max-width: 320px) {
 
+    .container-article {
+        margin-top: 10px;
+        margin-bottom: 70px;
+        margin-left: 15px;
+        
+    }
+    
+    }
 /*-------------- Jumbotron --------------*/
 
 .jumbotron {
