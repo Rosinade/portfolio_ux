@@ -1487,11 +1487,14 @@ footer {
 
 /*-------------- Image article --------------*/
 
+
+
 .img-fluid {
     max-width: 100%; 
     height: auto;
     padding-top: 30px;
     padding-bottom: 10px;
+    position: relative;
 }
 
 @media screen and (max-width: 1300px) {
