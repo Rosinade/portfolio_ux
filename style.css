@@ -1483,7 +1483,6 @@ footer {
 @media screen and (max-width: 1100px) {
 
     .img-fluid {
-        flex-direction: column;
         margin: 0px;
      }
 }
