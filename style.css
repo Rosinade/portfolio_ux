@@ -932,6 +932,29 @@ h1 {
     .grille-skill{
         grid-template: repeat(6,80px) / 300px;
         grid-gap: 40px;
+        margin-left: 15px;
+    }
+    .barre-grises {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .section-range{
+        padding-bottom: 100px;
+    }
+    .titre-exp {
+        font-size: 50px;
+        margin: 50px 0 60px 0px;
+    }
+    .label-skill {
+        font-size: 20px;
+    }
+    .grille-skill{
+        grid-template: repeat(6,80px) / 300px;
+        grid-gap: 40px;
+        margin-left: 15px;
     }
     .barre-grises {
         width: 300px;
@@ -1114,7 +1137,7 @@ h1 {
 
         .barre-verticale {
             height: 1600px;
-            margin-bottom: 200px;
+            margin-bottom: 180px;
         }
 
         .travail-exp {
