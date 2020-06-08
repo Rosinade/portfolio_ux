@@ -1087,12 +1087,12 @@ h1 {
             font-size: 15px;
         }
         .bloc {
-            height: 450px;
+            height: 350px;
         }
 
         .barre-verticale {
-            height: 1520px;
-            margin-bottom: 180px;
+            height: 1600px;
+            margin-bottom: 200px;
         }
 
         .travail-exp {
@@ -1114,14 +1114,14 @@ h1 {
     }
 
     .barre-verticale {
-        height: 2000px;
+        height: 1920px;
         margin-bottom: 180px;
     }
 
     .travail-exp {
         height: auto;
         margin-left: auto;
-        padding-bottom: 280px;
+        padding-bottom: 250px;
         position: relative;
     }
 
