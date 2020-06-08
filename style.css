@@ -1400,7 +1400,7 @@ footer {
 
 .container-article {
     flex-direction: column;
-    margin: 0px 70px 0px 70px;
+    margin: 0px 20px 0px 20px;
 }
 
 }
@@ -1411,7 +1411,6 @@ footer {
 
 .container-article {
     margin-top: 10px;
-    margin-bottom: 70px;
     
 }
 
@@ -1421,7 +1420,6 @@ footer {
 
     .container-article {
         margin-top: 10px;
-        margin-bottom: 70px;
         margin-left: 15px;
         
     }
@@ -1460,7 +1458,8 @@ footer {
     
         .jumbotron {
             margin-top: 10px;
-            margin-bottom: 70px;
+            margin-bottom: 5px;
+            height: 600px;
         } 
     }
 
