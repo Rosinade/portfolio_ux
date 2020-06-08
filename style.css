@@ -945,7 +945,7 @@ h1 {
         padding-bottom: 100px;
     }
     .titre-exp {
-        font-size: 50px;
+        font-size: 40px;
         margin: 50px 0 60px 0px;
     }
     .label-skill {
@@ -1355,6 +1355,9 @@ footer {
     }
 }
 
+.titre-contact {
+    font-size: 40px;
+}
 
 /* Footer-article */
 
