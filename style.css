@@ -82,6 +82,29 @@ body {
     margin: 10px 5px 10px 5px;
   }
 
+ /*-------------- ul media queries --------------*/ 
+ @media screen and (max-width: 1300px) {
+
+   ul {
+        margin-left: 55px;
+      }
+
+}
+@media screen and (max-width: 500px) {
+
+   ul {
+        margin-left: 55px;
+      }
+
+}
+@media screen and (max-width: 320px) {
+
+   ul {
+        margin-left: 55px;
+      }
+
+}
+
 /*-------------- Navigation --------------*/
 
 .nav-gauche {
@@ -1458,7 +1481,7 @@ footer {
     
         .jumbotron {
             margin-bottom: 5px;
-            height: 600px;
+            height: 400px;
         } 
     }
 
