@@ -625,7 +625,7 @@ h1 {
     z-index: 0;
 }
 .chiffre-style {
-    font-family: 'Abril Fatface', sans-serif;
+    font-family: 'PT Serif', serif;
     font-size: 40px;
 }
 .txt-liste {
@@ -1074,7 +1074,7 @@ h1 {
     background: #dfcfbf;
 }
 .titre-section-bloc {
-    font-family: 'Abril Fatface', sans-serif;
+    font-family: 'PT Serif', serif;
     font-size: 25px;
     padding-bottom: 10px;
 }
