@@ -7,7 +7,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'raleway', sans-serif;
     background: #f1f1f1;
 }
 
@@ -41,9 +41,11 @@ body {
   }
 
   h2{
+    font-size: 30px;
     text-align: center;
     color: #212529;
     margin-bottom: 25px;
+    font-weight: bold;
   }
 
 
@@ -56,14 +58,6 @@ body {
   }
   
 
-  
-  h4{
-    text-align: center;
-    font-family: 'PT Serif', serif;
-    font-size: 20px;
-    margin-bottom: 25px;
-    margin-top:25px;
-  }
 
   h5{
     text-align: left;
@@ -297,8 +291,8 @@ body {
    
 }
 h1 {
-    font-size: 70px;
-    font-family: 'PT Serif', serif;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
     color: #212529;
     margin: 0 60px;
     padding-top: 210px;
@@ -625,7 +619,7 @@ h1 {
     z-index: 0;
 }
 .chiffre-style {
-    font-family: 'PT Serif', serif;
+    font-family: 'Playfair Display', serif;
     font-size: 40px;
 }
 .txt-liste {
@@ -1074,7 +1068,7 @@ h1 {
     background: #dfcfbf;
 }
 .titre-section-bloc {
-    font-family: 'PT Serif', serif;
+    font-family: 'Playfair Display', serif;
     font-size: 25px;
     padding-bottom: 10px;
 }
