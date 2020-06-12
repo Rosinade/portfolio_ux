@@ -1523,3 +1523,10 @@ footer {
         width: 100%;
     } 
 }
+
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+ }
