@@ -343,7 +343,7 @@ h1 {
     cursor: pointer;
 }
 
-/* reseaux contactc */
+/* reseaux contacts */
 .medias-contact {
     display: flex;
     margin-left: 300px;
@@ -1480,8 +1480,7 @@ footer {
 .container-article{
     padding-left: 0px;
     margin: 0px 100px 0px 100px;
-}
-
+    }
 
 }
 
