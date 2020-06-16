@@ -343,14 +343,14 @@ h1 {
     cursor: pointer;
 }
 
-/* media footer */
-.medias-footer {
+/* reseaux contactc */
+.medias-contact {
     display: flex;
     margin-left: 300px;
     margin-top: 30px;
-    justify-content: center;
+    justify-content: center ;
 }
-.media-footer {
+.media-contact {
     width: 60px;
     height: 60px;
     background: #212529;
@@ -361,6 +361,8 @@ h1 {
     align-items: center;
     cursor: pointer;
 }
+
+
 
 .icone-medias {
     width: 30px;
