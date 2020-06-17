@@ -8,11 +8,16 @@ html {
 }
 body {
     font-family: 'raleway', sans-serif;
-    background: #f1f1f1;
+    background: #f6F4F0;
+    font-size: 16px;
+}
+
+strong{
+    font-weight: bold;
 }
 
  .subtitle {
-     color: #586871;
+     color: #ef593c;
      font-size: 14px;
      margin-top: 10px;
  }
@@ -30,7 +35,7 @@ body {
     margin-bottom: 55px;
   }
   .p{
-      color: #212529;
+      color: #545152;
   }
 
   .quote{
@@ -39,22 +44,23 @@ body {
       font-size: x-large;
       color: #ef593c;
       margin-bottom: 16px;
-      margin-top:16px;
+      margin-top: 16px;
   }
 
   h2{
     font-size: 30px;
     text-align: center;
-    color: #212529;
+    color: #545152;
     margin-bottom: 25px;
     font-weight: bold;
+    font-family: 'playfair display', serif;
   }
 
 
   h3{
     padding-top: 10px;
     padding-bottom: 5px;
-    color: #212529;
+    color: #545152;
     font-weight: bold;
     margin-bottom: 5px;
   }
@@ -62,11 +68,12 @@ body {
 
 
   h5{
+    font-family: 'playfair display', serif; 
     text-align: left;
-    font-size: 20px;
+    font-size: 23px;
     padding-top: 20px;
     padding-bottom: 15px;
-    color: #586871;
+    color: #545152;
     font-weight: bold;
   }
 
@@ -107,14 +114,15 @@ body {
     width: 300px;
     height: 100vh;
     min-height: 800px;
-    background: #edece9;
+    background: #F6F4F0;
     position: fixed;
     top: 0;
     left: 0px;
-    border-right: 1px dashed #f1f1f1;
+    border-right: 0.5px dashed #dfcfbf;
     z-index: 0;
     transition: all 0.2s ease-in-out;
 }
+
 .blocs-menu {
     width: 100%;
     height: 10%;
@@ -131,7 +139,7 @@ body {
 }
 .blocs-menu span a {
     text-decoration: none;
-    color: #212529;
+    color: #545152;
 }
 .blocs-menu span::after {
     content: '';
@@ -152,7 +160,7 @@ body {
 .blocs-menu:nth-child(1) {
     width: 100%;
     height: 25%;
-    background: #edece9;
+    background: #F6F4F0;
 }
 .cercle-portrait {
     margin: 20px 0;
@@ -160,8 +168,8 @@ body {
     height: 150px;
     border-radius: 50%;
     position: relative;
-    box-shadow: 26px 26px 53px #edece9,
-                -26px -26px 53px #edece9;
+    box-shadow: 26px 26px 53px #F6F4F0,
+                -26px -26px 53px #F6F4F0;
 }
 .cercle-portrait img {
     width: 160px;
@@ -210,11 +218,11 @@ body {
         display: none;
     }
     .btn-rond-menu {
-        width: 70px;
-        height: 70px;
-        border: 1px solid #f1f1f1;
+        width: 60px;
+        height: 60px;
+        /*border: 1px solid #f6f4F0;*/
         border-radius: 50%;
-        background: #212529;
+        background: rgb(246,244,240,0.6);
         position: fixed;
         top: 10px;
         left: 10px;
@@ -222,8 +230,8 @@ body {
     }
 
     .cont-ligne {
-        width: 36px;
-        height: 36px;
+        width: 30px;
+        height: 30px;
         cursor: pointer;
         position: absolute;
         top: 50%;
@@ -234,9 +242,9 @@ body {
 
     .ligne-unique {
         width: 100%;
-        height: 4px;
-        border-radius: 5px;
-        background: #f1f1f1;
+        height: 3px;
+        border-radius: 8px;
+        background: #545152;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -248,18 +256,18 @@ body {
         content: '';
         position: absolute;
         bottom: 10px;
-        background: #f1f1f1;
+        background: #545152;
         width: 100%;
-        height: 4px;
+        height: 3px;
         border-radius: 5px;
     }
     .ligne-unique::after {
         content: '';
         position: absolute;
         top: 10px;
-        background: #f1f1f1;
+        background: #545152;
         width: 100%;
-        height: 4px;
+        height: 3px;
         border-radius: 5px;
     }
 
@@ -295,7 +303,7 @@ body {
 h1 {
     font-size: 50px;
     font-family: 'Playfair Display', serif;
-    color: #212529;
+    color: #545152;
     margin: 0 60px;
     padding-top: 210px;
     padding-bottom: 50px;
@@ -309,21 +317,31 @@ h1 {
     width: 200px;
     height: 50px;
     text-decoration: none;
-    background: #212529;
+    border: 1px solid #545152;
     justify-content: center;
     align-items: center;
-    color: #f1f1f1;
+    color: #545152;
     margin: 10px 0 0 0;
     border-radius: 2px;
     font-size: 18px;
+    transition: transform 0.3s ease-out;
 }
+
+.btn-acc:hover {
+    transform: translateY(-5px);
+    background: #ef593c;
+    border: 1px solid #ef593c;
+    color: #F6F4F0;
+}
+
+
 .btn-acc1 {
     margin: 10px 0 0 60px;
 }
 .btn-acc2 {
     background: transparent;
-    border: 2px solid #212529;
-    color: #212529;
+    border: 1px solid #545152;
+    color: #545152;
     font-weight: 700;
 }
 .medias {
@@ -334,13 +352,20 @@ h1 {
 .media {
     width: 60px;
     height: 60px;
-    background: #212529;
+    background: #545152;
     border-radius: 50%;
     margin-right: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: transform 0.3s ease-out;
+}
+
+
+.media:hover {
+    transform: translateY(-5px);
+    background: #ef593c;
 }
 
 /* reseaux contacts */
@@ -351,10 +376,16 @@ h1 {
     justify-content: center ;
 }
 
+.media-contact:hover {
+    transform: translateY(-5px);
+    background: #ef593c;
+}
+
+
 .media-contact {
     width: 60px;
     height: 60px;
-    background: #212529;
+    background: #545152;
     border-radius: 50%;
     margin-right: 10px;
     margin-left: 10px;
@@ -362,6 +393,7 @@ h1 {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: transform 0.3s ease-out;
 }
 
 .icone-medias {
@@ -379,8 +411,8 @@ h1 {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    box-shadow: 0 0 0 0 #212529;
-    background: #212529;
+    box-shadow: 0 0 0 0 #545152;
+    background: #545152;
     animation: pulse 1.3s infinite;
 }
 @keyframes pulse {
@@ -460,7 +492,7 @@ h1 {
 
     h1 {
         font-size: 35px;
-        color: #212529;
+        color: #545152;
     }
     .accueil p {
         font-size: 16px;
@@ -484,10 +516,14 @@ h1 {
         width: 20px;
     }
 
-    .medias-contact {
+    .media-contact{
+        width: 40px;
+        height: 40px;  
         margin-left: 0px;
         margin-top: 30px;
     }
+
+  
 
 }
 
@@ -534,10 +570,12 @@ h1 {
         margin-left: 15px;
     }
     .icone-medias {
-        width: 20px;
+        width: 30px;
     }
 
-    .medias-contact {
+    .media-contact{
+        width: 40px;
+        height: 40px;  
         margin-left: 0px;
         margin-top: 30px;
     }
@@ -567,10 +605,12 @@ h1 {
         margin-left: 15px;
     }
     .icone-medias {
-        width: 20px;
+        width: 30px;
     }
 
-    .medias-contact {
+    .media-contact{
+        width: 40px;
+        height: 40px;  
         margin-left: 0px;
         margin-top: 30px;
     }
@@ -597,10 +637,12 @@ h1 {
         margin-left: 15px;
     }
     .icone-medias {
-        width: 20px;
+        width: 30px;
     }
 
-    .medias-contact {
+    .media-contact{
+        width: 40px;
+        height: 40px;  
         margin-left: 0px;
         margin-top: 30px;
     }
@@ -614,15 +656,15 @@ h1 {
     width: 100%;
     position: relative;
     overflow: hidden;
-    border-top: 1px dashed #212529;
-    border-bottom: 1px dashed #212529;
-    color: #212529;
+    /*border-top: 1px dashed #545152;
+    border-bottom: 1px dashed #545152;*/
+    color: #545152;
     z-index: -1;
    
 }
 .fond-forme {
-    background: #ccc7c7;
-    background-image: linear-gradient(to right, #ccc7c7, #dfcfbf);
+    background: #dfcfbf;
+    background-image: linear-gradient(to right, #F6F4F0, #dfcfbf);
     width: 2300px;
     height: 1000px;
     position: absolute;
@@ -772,7 +814,7 @@ h1 {
     padding: 50px 0;
     font-size: 50px;
     padding-left: 300px;
-    color: #212529;
+    color: #545152;
 }
 
 .cont-portfolio {
@@ -792,8 +834,8 @@ h1 {
     margin: 20px;
     width: 420px;
     height: 400px;
-    background: #f0f2f0;
-    color: #212529;
+    background: #f6F4F0;
+    color: #545152;
     transition: transform 0.3s ease-out;
     box-shadow: 0 0 20px #a6a8aa;
 }
@@ -833,9 +875,9 @@ h1 {
     height: 40px;
     line-height: 40px;
     text-align: center;
-    color: #586871;
+    color: #545152;
     text-decoration: none;
-    border: 1px solid #586871;
+    border: 1px solid #545152;
     border-radius: 3px;
     cursor: pointer;
     position: relative;
@@ -902,10 +944,10 @@ h1 {
     align-items: center;
     flex-direction: column;
     padding-bottom: 200px;
-    border-bottom: 1px dashed #333;
-    background: #dfdfdf;
-    background-image: linear-gradient(to right, #ccc7c7, #dfcfbf);
-    color: #212529;
+    /*border-bottom: 1px dashed #545152;*/
+    background: #dfcfbf;
+    background-image: linear-gradient(to right, #f6F4F0, #dfcfbf);
+    color: #545152;
     position: relative;
     z-index: -1;
 }
@@ -1064,7 +1106,7 @@ h1 {
     text-align: center;
     margin: 70px 0;
     font-size: 40px;
-    color: #212529;
+    color: #545152;
 }
 .cont-exp-travail {
     position: relative;
@@ -1073,8 +1115,8 @@ h1 {
 }
 .barre-verticale {
     height: 1000px;
-    width: 5px;
-    background: #212529;
+    width: 1px;
+    background: #545152;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1087,8 +1129,8 @@ h1 {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 1px solid #212529;
-    background: #f1f1f1;
+    border: 1px solid #545152;
+    background: #f6F4F0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1108,15 +1150,15 @@ h1 {
     height: 200px;
     margin-bottom: 37.5px;
     cursor: pointer;
-    border: 1px solid #212529;
+    border: 1px solid #545152;
     position: relative;
 }
 .contenu-bloc {
     padding: 20px;
     width: 100%;
     height: 100%;
-    border: 2px solid #212529;
-    background: white;
+    border: 1px solid #545152;
+    background: #F6F4F0;
     transition: transform 0.25s ease-in-out;
     position: relative;
     transform: translate(10px, -10px);
@@ -1268,8 +1310,8 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 1px dashed #212529;
-    border-bottom: 1px dashed #212529;
+    border-top: 1px dashed #dfcfbf;
+    border-bottom: 1px dashed #dfcfbf;
 }
 .txt-par {
     font-size: 30px;
@@ -1319,7 +1361,7 @@ h1 {
 }
 .section-contact h2 {
     text-align: center;
-    color: #212529;
+    color: #545152;
     font-size: 48px;
     font-weight: 400;
     margin-bottom: 50px;
@@ -1329,7 +1371,7 @@ h1 {
     font-weight: 900;
 }
 
-.container-form {
+/*.container-form {
     margin: 0 auto;
     width: 70%;
     padding-left: 300px;
@@ -1392,7 +1434,7 @@ textarea:focus {
     padding: 15px 60px;
     border: 3px solid rgb(144,144,144);
     border-radius: 999px;
-    background-image: linear-gradient(to right, transparent 50%, #212529 50%, #586871);
+    background-image: linear-gradient(to right, transparent 50%, #545152 50%, #586871);
     background-size: 200%;
     color: #333;
     font-size: 24px;
@@ -1403,7 +1445,7 @@ textarea:focus {
     color: #fff;
     background-position: 100%;
     border: 3px solid #fff;
-}
+}*/
 @media screen and (max-width: 1300px) {
     .section-contact h2 {
         padding: 70px 0 0 0;
@@ -1418,7 +1460,7 @@ textarea:focus {
 
 /* Animation Contact */
 
-.form-groupe:focus-within label,
+/*.form-groupe:focus-within label,
 .form-groupe.animation label {
     top: 0px;
     transform: translateY(-100%);
@@ -1428,6 +1470,8 @@ textarea:focus {
 /* Footer */
 
 footer {
+    color: #545152;
+    font-size: 12px;
     width: 100%;
     text-align: center;
     padding-top: 100px;
@@ -1450,6 +1494,8 @@ footer {
 /* Footer-article */
 
 .article-footer {
+    color: #545152;
+    font-size: 12px;
     width: 100%;
     text-align: center;
     padding-top: 100px;
@@ -1470,7 +1516,7 @@ footer {
 /*-------------- Article --------------*/
 .container-article{
     padding-left: 0px;
-    margin: 0px 150px 0px 150px;
+    margin: 0px 200px 0px 200px;
     padding-top: 100px;
     padding-left: 300px;
 }
@@ -1516,7 +1562,7 @@ footer {
 /*-------------- Jumbotron --------------*/
 
 .jumbotron {
-    background-color: #edece9;
+    background-color: #eee6d7;
     text-align:center;
     padding-bottom: 20px;
     margin-left: 300px;
@@ -1594,10 +1640,5 @@ footer {
     } 
 }
 
-.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    margin-top: 20px;
- }
+
+ 
