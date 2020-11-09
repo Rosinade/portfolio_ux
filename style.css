@@ -1188,9 +1188,11 @@ h1 {
     background: #dfcfbf;
 }
 
+
 .bloc6 {
     background: #dfcfbf;
 }
+
 .titre-section-bloc {
     font-family: 'Playfair Display', serif;
     font-size: 25px;
@@ -1295,11 +1297,11 @@ h1 {
         font-size: 15px;
     }
     .bloc {
-        height: 430px;
+        height: 330px;
     }
 
     .barre-verticale {
-        height: 1920px;
+        height: 2020px;
         margin-bottom: 180px;
     }
 
