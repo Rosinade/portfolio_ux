@@ -486,6 +486,7 @@ h1 {
         margin-left: 0px;
         margin-top: 30px;
     }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -605,8 +606,10 @@ h1 {
         margin-left: 15px;
     }
     .icone-medias {
-        width: 30px;
+        width: 20px;
     }
+
+
 
     .media-contact{
         width: 40px;
@@ -706,6 +709,9 @@ h1 {
 }
 .pres-gauche p {
     text-align: justify;
+    letter-spacing: 0.5px;
+    line-height: 1.5em;
+
 }
 
 .pres-droite {
@@ -763,7 +769,7 @@ h1 {
     }
     .pres-gauche h3 {
         font-size: 20px;
-        letter-spacing: 0px;
+        letter-spacing: 0.5px;
     }
 
     .pres-gauche p {
@@ -985,14 +991,14 @@ h1 {
     border-radius: 5px;
 }
 .b1 {
-    width: 70%;
+    width: 80%;
 }
 .b2 {
     width: 90%;
     background: #ef593c;
 }
 .b3 {
-    width: 80%;
+    width: 90%;
     background: #ef593c;
 }
 .b4 {
@@ -1114,7 +1120,7 @@ h1 {
     justify-content: center;
 }
 .barre-verticale {
-    height: 1000px;
+    height: 990px;
     width: 1px;
     background: #545152;
     display: flex;
@@ -1147,7 +1153,7 @@ h1 {
 }
 .bloc {
     width: 100%;
-    height: 200px;
+    height: 150px;
     margin-bottom: 37.5px;
     cursor: pointer;
     border: 1px solid #545152;
@@ -1181,6 +1187,10 @@ h1 {
 .bloc5 {
     background: #dfcfbf;
 }
+
+.bloc6 {
+    background: #dfcfbf;
+}
 .titre-section-bloc {
     font-family: 'Playfair Display', serif;
     font-size: 25px;
@@ -1196,7 +1206,7 @@ h1 {
 @media screen and (max-width: 950px) {
 
     .barre-verticale {
-        height: 1080px;
+        height: 1345px;
     }
     .bloc {
         height: 220px;
@@ -1218,10 +1228,10 @@ h1 {
         font-size: 16px;
     }
     .bloc {
-        height: 250px;
+        height: 200px;
     }
     .barre-verticale {
-        height: 1200px;
+        height: 1240px;
         margin-bottom: 180px;
     }
     .travail-exp {
