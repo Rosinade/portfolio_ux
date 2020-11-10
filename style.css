@@ -7,9 +7,10 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font-family: 'raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background: #f6F4F0;
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 1em;
 }
 
 strong{
@@ -48,33 +49,32 @@ strong{
   }
 
   h2{
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     color: #545152;
     margin-bottom: 25px;
-    font-weight: bold;
-    font-family: 'playfair display', serif;
+    font-family: 'Trocchi', serif;
   }
 
 
   h3{
+    font-family: 'Trocchi', serif;
+    font-size: 50px;
     padding-top: 10px;
     padding-bottom: 5px;
     color: #545152;
-    font-weight: bold;
     margin-bottom: 5px;
   }
   
 
 
   h5{
-    font-family: 'playfair display', serif; 
+    font-family: 'Trocchi', serif;
     text-align: left;
-    font-size: 23px;
+    font-size: 50px;
     padding-top: 20px;
     padding-bottom: 15px;
     color: #545152;
-    font-weight: bold;
   }
 
   ul{
@@ -302,7 +302,8 @@ strong{
 }
 h1 {
     font-size: 50px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Trocchi', serif;
+    letter-spacing: .2rem;
     color: #545152;
     margin: 0 60px;
     padding-top: 210px;
@@ -698,9 +699,10 @@ h1 {
     padding-left: 120px;
     padding-top: 20px;
 }
-.pres-gauche h3 {
-    text-align: center;
+.pres-gauche h3 {    
+    font-family: 'Trocchi', serif;
     font-size: 25px;
+    text-align: center;
     letter-spacing: 2px;
 }
 .pres-gauche hr {
@@ -726,11 +728,16 @@ h1 {
     z-index: 0;
 }
 .chiffre-style {
-    font-family: 'Playfair Display', serif;
-    font-size: 40px;
+    font-family: 'Trocchi', serif;
+    font-size: 30px;
+    color: #f6F4F0;
 }
 .txt-liste {
-    font-size: 27px;
+    font-family: 'Trocchi', serif;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    color: #F6F4F0;
     display: inline;
 }
 
@@ -817,8 +824,9 @@ h1 {
 }
 .titre-port {
     text-align: center;
+    letter-spacing: .2rem;
     padding: 50px 0;
-    font-size: 50px;
+    font-size: 40px;
     padding-left: 300px;
     color: #545152;
 }
@@ -959,15 +967,18 @@ h1 {
 }
 .range-cont {
     position: relative;
+    line-height: 2em;
 }
 .titre-exp {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
+    letter-spacing: .2rem;
     margin: 80px 0 90px 0;
     padding-left: 300px;
 }
 .grille-skill {
     display: grid;
+    line-height: .2rem;
     grid-template: repeat(3,80px) / repeat(2, 500px);
     grid-gap: 50px;
     padding-left: 300px;
@@ -1110,8 +1121,8 @@ h1 {
 
 .titre-travail-exp {
     text-align: center;
+    letter-spacing: .2rem;
     margin: 70px 0;
-    font-size: 40px;
     color: #545152;
 }
 .cont-exp-travail {
@@ -1147,6 +1158,7 @@ h1 {
 
 .flex-cont-bloc-exp {
     width: 800px;
+    line-height: 1.5em;
     flex-shrink: 1;
     height: 1080px;
     position: relative;
@@ -1374,7 +1386,7 @@ h1 {
 .section-contact h2 {
     text-align: center;
     color: #545152;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 400;
     margin-bottom: 50px;
     padding: 70px 0 0 300px;
@@ -1501,6 +1513,7 @@ footer {
 
 .titre-contact {
     font-size: 40px;
+    letter-spacing: .2rem;
 }
 
 /* Footer-article */
