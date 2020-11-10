@@ -780,7 +780,7 @@ h1 {
     }
 
     .pres-gauche p {
-        font-size: 16px;
+        font-size: 14px;
     }
     .pres-droite {
         width: 80%;
@@ -801,6 +801,10 @@ h1 {
     .titre-pres {
         font-size: 24px;
         margin: 0 10px
+    }
+
+    .pres-gauche p{
+        font-size: 14px;
     }
     .pres-gauche h3 {
         font-size: 20px;
@@ -921,7 +925,7 @@ h1 {
         padding-left: 0;
     }
     .titre-port {
-        font-size: 40px;
+        font-size: 30px;
         margin: 50px 0 70px;
         padding-left: 0;
     }
@@ -930,6 +934,7 @@ h1 {
 @media screen and (max-width: 500px) {
 
     .titre-port {
+        font-size: 30px;
         margin: 10px 0;
         padding: 30px 0;
     }
@@ -1070,7 +1075,7 @@ h1 {
         padding-bottom: 100px;
     }
     .titre-exp {
-        font-size: 50px;
+        font-size: 30px;
         margin: 50px 0 60px 0;
     }
     .label-skill {
@@ -1092,7 +1097,7 @@ h1 {
         padding-bottom: 100px;
     }
     .titre-exp {
-        font-size: 40px;
+        font-size: 30px;
         margin: 50px 0 60px 0px;
     }
     .label-skill {
@@ -1206,8 +1211,8 @@ h1 {
 }
 
 .titre-section-bloc {
-    font-family: 'Playfair Display', serif;
-    font-size: 25px;
+    font-family: 'Trocchi', serif;
+    font-size: 20px;
     padding-bottom: 10px;
 }
 
@@ -1233,13 +1238,16 @@ h1 {
     .flex-cont-bloc-exp {
         margin-right: 30px;
     }
+    .titre-section-bloc {
+        font-size: 20px;
+    }
 
 }
 
 @media screen and (max-width: 520px) {
 
     .txt-section  {
-        font-size: 16px;
+        font-size: 14px;
     }
     .bloc {
         height: 200px;
@@ -1254,6 +1262,12 @@ h1 {
         padding-bottom: 100px;
         position: relative;
     }
+    .titre-travail-exp {
+        font-size: 30px;
+    }
+    .titre-section-bloc {
+        font-size: 16px;
+    }
 
 
 }
@@ -1261,7 +1275,7 @@ h1 {
 @media screen and (max-width: 414px) {
 
     .txt-section  {
-        font-size: 16px;
+        font-size: 14px;
     }
     .bloc {
         height: 250px;
@@ -1277,13 +1291,20 @@ h1 {
         position: relative;
     }
 
+    .titre-travail-exp {
+        font-size: 30px;
+    }
+    .titre-section-bloc {
+        font-size: 16px;
+    }
+
 
 }
 
 @media screen and (max-width: 375px) {
 
         .txt-section {
-            font-size: 15px;
+            font-size: 14px;
         }
         .bloc {
             height: 280px;
@@ -1300,13 +1321,19 @@ h1 {
             padding-bottom: 100px;
             position: relative;
         }
+        .titre-travail-exp {
+            font-size: 30px;
+        }
+        .titre-section-bloc {
+            font-size: 16px;
+        }
 
 }
 
 @media screen and (max-width: 320px) {
 
     .txt-section {
-        font-size: 15px;
+        font-size: 14px;
     }
     .bloc {
         height: 360px;
@@ -1322,6 +1349,13 @@ h1 {
         margin-left: auto;
         padding-bottom: 160px;
         position: relative;
+    }
+
+    .titre-travail-exp {
+        font-size: 30px;
+    }
+    .titre-section-bloc {
+        font-size: 16px;
     }
 
 }
