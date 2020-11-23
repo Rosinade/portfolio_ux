@@ -38,10 +38,10 @@ typewriter
 .typeString(', Art Director')
 .pauseFor(1000)
 .deleteChars(12)
-.typeString('<span style="color: #586871;"> UI Designer</span>')
+.typeString('<span style="color: #b29f99;"> UI Designer</span>')
 .pauseFor(1000)
 .deleteChars(12)
-.typeString('<span style="color: #ff5a3f;"> UX Designer</span>')
+.typeString('<span style="color: #be5757;"> UX Designer</span>')
 .pauseFor(1000)
 
 .start()
